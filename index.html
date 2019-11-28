@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="icon" href="image/thermometer.png" />
+    <title>Temperature Converter</title>
+  </head>
+  <body>
+    <div id="main">
+      <form id="main-content">
+        <h1 id="heading">Temperature Convertor</h1>
+        <div class="input">
+          <label for="input-celsius" id="lbl">Celsius:</label>
+          <input
+            type="number"
+            id="input-celsius"
+            class="fields"
+            placeholder="&#8451;"
+          />
+          <input type="button" id="celbtn" value="Convert" />
+        </div>
+        <div class="input">
+          <label for="input-fahren">Fahrenheit:</label>
+          <input
+            type="number"
+            id="input-fahren"
+            class="fields"
+            placeholder="&#8457;"
+          />
+          <input type="button" id="fahbtn" value="Convert" />
+        </div>
+        <div class="input">
+          <label for="input-kelvin">Kelvin:</label>
+          <input
+            type="number"
+            id="input-kelvin"
+            class="fields"
+            placeholder="&#8490;"
+          />
+          <input type="button" id="kelbtn" value="Convert" />
+        </div>
+        <button id="reset">Reset</button>
+      </form>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
